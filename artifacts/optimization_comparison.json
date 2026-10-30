@@ -1,0 +1,66 @@
+{
+  "comparison": {
+    "baseline": {
+      "episodes": 10.0,
+      "profit_mean": 110273.98401445297,
+      "profit_std": 19346.87953099866,
+      "production_mean": 9896.490656414639,
+      "unmet_mean": 2310.5573959862013,
+      "failures_mean": 9.4,
+      "maintenances_mean": 16.2,
+      "downtime_hours_mean": 73.8,
+      "final_health_mean": 0.8995316011777396,
+      "min_health_mean": 0.545228441567623,
+      "elapsed_s_mean": 20.330991170000924,
+      "capacity_violations_mean": 0.0,
+      "plan_prediction_mae": 4264.499073634927,
+      "plan_prediction_wape_pct": 30.29764028545779,
+      "verified_capacity_violations": 0.0,
+      "verified_failure_probability_mean": 0.8209821428571429,
+      "verified_failures_p90_mean": 2.665714285714286,
+      "verified_cvar10_mean": -2040.9915876857513,
+      "profit_delta_vs_threshold_pct": 18.811131875283305
+    },
+    "robust": {
+      "episodes": 10.0,
+      "profit_mean": 108457.24037472904,
+      "profit_std": 25939.950199970477,
+      "production_mean": 9561.781529065553,
+      "unmet_mean": 2461.6417658759187,
+      "failures_mean": 8.4,
+      "maintenances_mean": 19.8,
+      "downtime_hours_mean": 65.4,
+      "final_health_mean": 0.9393956592116668,
+      "min_health_mean": 0.6479269539434384,
+      "elapsed_s_mean": 21.991430449999463,
+      "capacity_violations_mean": 0.0,
+      "plan_prediction_mae": 3160.555346247514,
+      "plan_prediction_wape_pct": 19.558330742676084,
+      "verified_capacity_violations": 0.0,
+      "verified_failure_probability_mean": 0.7830357142857143,
+      "verified_failures_p90_mean": 2.2567857142857144,
+      "verified_cvar10_mean": 2801.590138275564,
+      "profit_delta_vs_threshold_pct": 16.85374029201982
+    },
+    "delta": {
+      "profit_mean_pct": -1.6474816394461873,
+      "profit_std_pct": 34.07821224300295,
+      "failures_mean_pct": -10.638297872340425,
+      "failure_probability_pp": -3.7946428571428603,
+      "failures_p90_delta": -0.40892857142857153,
+      "cvar10_delta": 4842.581725961316
+    }
+  },
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505,
+    606,
+    707,
+    808,
+    909,
+    1010
+  ]
+}

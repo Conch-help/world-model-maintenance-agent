@@ -1,0 +1,34 @@
+{
+  "register_values": [
+    750,
+    950,
+    970,
+    30800,
+    30900,
+    32800,
+    190,
+    130,
+    140,
+    56980,
+    122,
+    0,
+    1000,
+    1000,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "coils": [
+    false,
+    false,
+    true
+  ],
+  "validation": {
+    "accepted": true,
+    "reasons": []
+  },
+  "protocol": "Modbus TCP loopback"
+}

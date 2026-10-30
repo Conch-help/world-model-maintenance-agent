@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520">
+<rect width="100%" height="100%" fill="#0B1524"/>
+<text x="42" y="38" fill="#F5F8FC" font-size="22" font-family="Segoe UI, Microsoft YaHei" font-weight="700">Maintenance policy benchmark · 10 unseen 168h scenarios</text>
+<line x1="220" y1="260.7" x2="1070" y2="260.7" stroke="#52627A" stroke-width="1"/>
+<text x="42" y="280.5" fill="#C8D4E5" font-size="15" font-family="Segoe UI, Microsoft YaHei">全速生产、无维护</text>
+<rect x="220" y="260.7" width="331.4" height="28.3" rx="6" fill="#7C8DA6"/>
+<text x="232.0" y="280.5" fill="#F5F8FC" font-size="14" font-family="Segoe UI">-81,081 (-187.4%)</text>
+<text x="42" y="280.5" fill="#C8D4E5" font-size="15" font-family="Segoe UI, Microsoft YaHei">固定间隔维护</text>
+<rect x="220" y="260.7" width="0.1" height="28.3" rx="6" fill="#9AA8BA"/>
+<text x="232.0" y="280.5" fill="#F5F8FC" font-size="14" font-family="Segoe UI">-29 (-100.0%)</text>
+<text x="42" y="132.5" fill="#C8D4E5" font-size="15" font-family="Segoe UI, Microsoft YaHei">阈值维护</text>
+<rect x="220" y="112.7" width="379.3" height="28.3" rx="6" fill="#F2B84B"/>
+<text x="611.3" y="132.5" fill="#F5F8FC" font-size="14" font-family="Segoe UI">92,815 (+0.0%)</text>
+<text x="42" y="110.9" fill="#C8D4E5" font-size="15" font-family="Segoe UI, Microsoft YaHei">高保真直接搜索（有限预算）</text>
+<rect x="220" y="91.0" width="434.8" height="28.3" rx="6" fill="#5FC7B7"/>
+<text x="666.8" y="110.9" fill="#F5F8FC" font-size="14" font-family="Segoe UI">106,385 (+14.6%)</text>
+<text x="42" y="89.8" fill="#C8D4E5" font-size="15" font-family="Segoe UI, Microsoft YaHei">世界模型规划</text>
+<rect x="220" y="70.0" width="488.6" height="28.3" rx="6" fill="#2F8FEA"/>
+<text x="720.6" y="89.8" fill="#F5F8FC" font-size="14" font-family="Segoe UI">119,559 (+28.8%)</text>
+<text x="42" y="107.5" fill="#C8D4E5" font-size="15" font-family="Segoe UI, Microsoft YaHei">稳健世界模型 + 高保真验证</text>
+<rect x="220" y="87.7" width="443.3" height="28.3" rx="6" fill="#7C8DA6"/>
+<text x="675.3" y="107.5" fill="#F5F8FC" font-size="14" font-family="Segoe UI">108,457 (+16.9%)</text>
+<text x="42" y="104.6" fill="#C8D4E5" font-size="15" font-family="Segoe UI, Microsoft YaHei">普通世界模型 + 高保真验证</text>
+<rect x="220" y="84.8" width="450.7" height="28.3" rx="6" fill="#9AA8BA"/>
+<text x="682.7" y="104.6" fill="#F5F8FC" font-size="14" font-family="Segoe UI">110,274 (+18.8%)</text>
+</svg>

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it."
+title: "世界模型驱动的工业设备预测性维护与调度代理"
+authors:
+  - family-names: "张"
+    given-names: "子轩"
+  - family-names: "魏"
+    given-names: "昱霏"
+year: 2026
+version: 0.1.0
+license: MIT
+abstract: "Action-conditioned world model, high-fidelity digital-twin verification, AGH approval and hash-chain trace for industrial maintenance scheduling."

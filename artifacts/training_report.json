@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "n_episodes": 200,
+    "n_transitions": 33600
+  },
+  "fit": {
+    "train_loss": 0.14859434284120618,
+    "val_loss": 0.14152771262483935,
+    "n_train": 28560.0,
+    "n_val": 5040.0
+  },
+  "heldout": {
+    "n_transitions": 384.0,
+    "machine_state_rmse_normalized": 0.045635920053866436,
+    "health_rmse_normalized": 0.019070886475685056,
+    "profit_mae": 319.9364090382912,
+    "coverage_1sigma": 0.9456188725490197,
+    "coverage_2sigma": 0.9707414215686274
+  },
+  "model_path": "C:\\Users\\user\\Documents\\Codex\\2026-10-08\\https-agnes-ai-cn-hackathon-register\\world-model-maintenance-agent\\artifacts\\world_model.npz"
+}

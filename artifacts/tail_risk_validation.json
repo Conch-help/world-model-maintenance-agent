@@ -1,0 +1,31 @@
+{
+  "plan_id": "PLAN-20261008-0",
+  "horizon": 12,
+  "verification": {
+    "status": "ok",
+    "plan_id": "PLAN-20261008-0",
+    "all_pass": true,
+    "capacity_ok": true,
+    "profit_ok": true,
+    "verified_profit": 11181.3,
+    "verified_failures": 0,
+    "verified_unmet": 169.17,
+    "capacity_violations": 0,
+    "risk": 0.0,
+    "verified_robust_score": -27308.39,
+    "n_scenarios": 32,
+    "profit_p05": 1077.28,
+    "profit_p50": 15084.01,
+    "profit_p95": 15085.34,
+    "profit_cvar10": 342.52,
+    "failure_probability": 0.375,
+    "failures_p50": 0.0,
+    "failures_p90": 1.0,
+    "failures_p95": 1.4499999999999993,
+    "failures_max": 2,
+    "unmet_p90": 308.14,
+    "unmet_p95": 323.49,
+    "capacity_violations_max": 0
+  },
+  "trace_valid": true
+}

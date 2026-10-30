@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Local secrets and AGH homes
+.secrets/
+.agh/
+**/.secrets/
+**/.agh/
+
+# Local scratch data and raw traces
+work/
+artifacts/agh_real_session.json
+artifacts/agh_real_session_sanitized.json
+artifacts/agh_fixture_session.json
+artifacts/agh_toolchain_session.json
+artifacts/mcp_debug.jsonl
+*.session.json
+*.jsonl
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*
+*.env
+

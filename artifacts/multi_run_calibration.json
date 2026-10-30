@@ -1,0 +1,231 @@
+{
+  "seeds": [
+    20261008,
+    1001,
+    2002,
+    3003,
+    4004
+  ],
+  "runs": [
+    {
+      "seed": 20261008,
+      "plan_id": "PLAN-20261008-0",
+      "verified_profit": 11181.3,
+      "verified_failures": 0,
+      "failure_probability": 0.375,
+      "failures_p90": 1.0,
+      "profit_cvar10": 342.52,
+      "actual_profit": 14529.53,
+      "actual_failures": 0,
+      "actual_vs_verified": {
+        "actual_profit": 14529.53,
+        "verified_profit": 11181.3,
+        "profit_ratio": 1.2994,
+        "actual_failures": 0,
+        "verified_failures": 0,
+        "failure_delta": 0,
+        "shield_adjustments": 9,
+        "calibration": {
+          "n_runs": 1,
+          "profit_scale": 1.2994,
+          "actual_profit_mean": 14529.53,
+          "verified_profit_mean": 11181.3,
+          "actual_failures_mean": 0.0,
+          "verified_failures_mean": 0.0,
+          "failure_bias": 0.0,
+          "shield_adjustments": 9
+        }
+      },
+      "calibration": {
+        "status": "ok",
+        "n_runs": 1,
+        "profit_scale": 1.2994,
+        "actual_profit_mean": 14529.53,
+        "verified_profit_mean": 11181.3,
+        "actual_failures_mean": 0.0,
+        "verified_failures_mean": 0.0,
+        "failure_bias": 0.0,
+        "shield_adjustments": 9
+      },
+      "trace_valid": true
+    },
+    {
+      "seed": 1001,
+      "plan_id": "PLAN-1001-0",
+      "verified_profit": 11196.8,
+      "verified_failures": 0,
+      "failure_probability": 0.2812,
+      "failures_p90": 1.0,
+      "profit_cvar10": 310.37,
+      "actual_profit": 14219.77,
+      "actual_failures": 0,
+      "actual_vs_verified": {
+        "actual_profit": 14219.77,
+        "verified_profit": 11196.8,
+        "profit_ratio": 1.27,
+        "actual_failures": 0,
+        "verified_failures": 0,
+        "failure_delta": 0,
+        "shield_adjustments": 11,
+        "calibration": {
+          "n_runs": 1,
+          "profit_scale": 1.27,
+          "actual_profit_mean": 14219.77,
+          "verified_profit_mean": 11196.8,
+          "actual_failures_mean": 0.0,
+          "verified_failures_mean": 0.0,
+          "failure_bias": 0.0,
+          "shield_adjustments": 11
+        }
+      },
+      "calibration": {
+        "status": "ok",
+        "n_runs": 1,
+        "profit_scale": 1.27,
+        "actual_profit_mean": 14219.77,
+        "verified_profit_mean": 11196.8,
+        "actual_failures_mean": 0.0,
+        "verified_failures_mean": 0.0,
+        "failure_bias": 0.0,
+        "shield_adjustments": 11
+      },
+      "trace_valid": true
+    },
+    {
+      "seed": 2002,
+      "plan_id": "PLAN-2002-0",
+      "verified_profit": 11882.54,
+      "verified_failures": 0,
+      "failure_probability": 0.3125,
+      "failures_p90": 1.0,
+      "profit_cvar10": 1849.53,
+      "actual_profit": 15434.66,
+      "actual_failures": 0,
+      "actual_vs_verified": {
+        "actual_profit": 15434.66,
+        "verified_profit": 11882.54,
+        "profit_ratio": 1.2989,
+        "actual_failures": 0,
+        "verified_failures": 0,
+        "failure_delta": 0,
+        "shield_adjustments": 9,
+        "calibration": {
+          "n_runs": 1,
+          "profit_scale": 1.2989,
+          "actual_profit_mean": 15434.66,
+          "verified_profit_mean": 11882.54,
+          "actual_failures_mean": 0.0,
+          "verified_failures_mean": 0.0,
+          "failure_bias": 0.0,
+          "shield_adjustments": 9
+        }
+      },
+      "calibration": {
+        "status": "ok",
+        "n_runs": 1,
+        "profit_scale": 1.2989,
+        "actual_profit_mean": 15434.66,
+        "verified_profit_mean": 11882.54,
+        "actual_failures_mean": 0.0,
+        "verified_failures_mean": 0.0,
+        "failure_bias": 0.0,
+        "shield_adjustments": 9
+      },
+      "trace_valid": true
+    },
+    {
+      "seed": 3003,
+      "plan_id": "PLAN-3003-0",
+      "verified_profit": 13075.22,
+      "verified_failures": 0,
+      "failure_probability": 0.25,
+      "failures_p90": 1.0,
+      "profit_cvar10": 4543.32,
+      "actual_profit": 15287.9,
+      "actual_failures": 0,
+      "actual_vs_verified": {
+        "actual_profit": 15287.9,
+        "verified_profit": 13075.22,
+        "profit_ratio": 1.1692,
+        "actual_failures": 0,
+        "verified_failures": 0,
+        "failure_delta": 0,
+        "shield_adjustments": 8,
+        "calibration": {
+          "n_runs": 1,
+          "profit_scale": 1.1692,
+          "actual_profit_mean": 15287.9,
+          "verified_profit_mean": 13075.22,
+          "actual_failures_mean": 0.0,
+          "verified_failures_mean": 0.0,
+          "failure_bias": 0.0,
+          "shield_adjustments": 8
+        }
+      },
+      "calibration": {
+        "status": "ok",
+        "n_runs": 1,
+        "profit_scale": 1.1692,
+        "actual_profit_mean": 15287.9,
+        "verified_profit_mean": 13075.22,
+        "actual_failures_mean": 0.0,
+        "verified_failures_mean": 0.0,
+        "failure_bias": 0.0,
+        "shield_adjustments": 8
+      },
+      "trace_valid": true
+    },
+    {
+      "seed": 4004,
+      "plan_id": "PLAN-4004-0",
+      "verified_profit": 12338.32,
+      "verified_failures": 0,
+      "failure_probability": 0.2188,
+      "failures_p90": 1.0,
+      "profit_cvar10": 943.86,
+      "actual_profit": 1935.87,
+      "actual_failures": 1,
+      "actual_vs_verified": {
+        "actual_profit": 1935.87,
+        "verified_profit": 12338.32,
+        "profit_ratio": 0.1569,
+        "actual_failures": 1,
+        "verified_failures": 0,
+        "failure_delta": 1,
+        "shield_adjustments": 5,
+        "calibration": {
+          "n_runs": 1,
+          "profit_scale": 0.1569,
+          "actual_profit_mean": 1935.87,
+          "verified_profit_mean": 12338.32,
+          "actual_failures_mean": 1.0,
+          "verified_failures_mean": 0.0,
+          "failure_bias": 1.0,
+          "shield_adjustments": 5
+        }
+      },
+      "calibration": {
+        "status": "ok",
+        "n_runs": 1,
+        "profit_scale": 0.1569,
+        "actual_profit_mean": 1935.87,
+        "verified_profit_mean": 12338.32,
+        "actual_failures_mean": 1.0,
+        "verified_failures_mean": 0.0,
+        "failure_bias": 1.0,
+        "shield_adjustments": 5
+      },
+      "trace_valid": true
+    }
+  ],
+  "aggregate": {
+    "profit_mean": 12281.546000000002,
+    "failures_mean": 0.2,
+    "profit_scale_mean": 1.03888,
+    "profit_scale_std": 0.4435695093218198,
+    "failure_bias_mean": 0.2,
+    "shield_adjustments_mean": 8.4,
+    "trace_valid_rate": 1.0
+  },
+  "boundary": "These are five independent MCP-agent calibration runs. They are not five separate human-approved AGH UI sessions; the official AGH evidence remains the approved real session."
+}

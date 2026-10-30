@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "wm-maintenance-agent": {
+      "command": "python",
+      "args": ["-m", "wm_maint.mcp_server", "--model", "artifacts/world_model.npz"],
+      "cwd": ".",
+      "env": {"PYTHONPATH": "src", "PYTHONIOENCODING": "utf-8"},
+      "transport": "stdio"
+    }
+  }
+}

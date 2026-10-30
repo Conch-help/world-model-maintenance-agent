@@ -1,0 +1,11 @@
+{
+  "model": "sequence-lstm-experiment",
+  "sequence_length": 12,
+  "train_sequences": 256,
+  "validation_sequences": 64,
+  "health_rmse": 0.028042271733283997,
+  "machine_state_rmse": 0.10928669571876526,
+  "profit_mae": 450.7433776855469,
+  "one_step_loss": 0.37769949436187744,
+  "boundary": "Experimental comparison only; the production planner retains the validated ensemble model."
+}

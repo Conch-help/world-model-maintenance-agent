@@ -1,0 +1,129 @@
+{
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "scenarios": [
+    {
+      "scenario": "nominal",
+      "rows": [
+        {
+          "seed": 101,
+          "profit": 145605.14206700033,
+          "failures": 2,
+          "downtime": 19.0,
+          "unmet": 2464.1454285264376,
+          "production": 9291.047878399673,
+          "final_health": 0.9926369964642716
+        },
+        {
+          "seed": 202,
+          "profit": 106264.40574546362,
+          "failures": 6,
+          "downtime": 56.0,
+          "unmet": 3034.666273822422,
+          "production": 8494.34454885374,
+          "final_health": 0.9230704625352938
+        },
+        {
+          "seed": 303,
+          "profit": 100846.70586718712,
+          "failures": 8,
+          "downtime": 45.0,
+          "unmet": 2885.164813744433,
+          "production": 8675.219770244654,
+          "final_health": 0.9149389344563357
+        }
+      ],
+      "mean": {
+        "profit": 117572.08455988369,
+        "failures": 5.333333333333333,
+        "downtime": 40.0,
+        "unmet": 2794.658838697764,
+        "production": 8820.20406583269,
+        "final_health": 0.9435487978186337
+      }
+    },
+    {
+      "scenario": "degradation_and_failure_shift",
+      "rows": [
+        {
+          "seed": 101,
+          "profit": 114047.80070812808,
+          "failures": 5,
+          "downtime": 42.0,
+          "unmet": 3022.494341775062,
+          "production": 8580.211326944205,
+          "final_health": 0.9270966450298866
+        },
+        {
+          "seed": 202,
+          "profit": 85020.60001564318,
+          "failures": 6,
+          "downtime": 55.0,
+          "unmet": 3454.5715435044203,
+          "production": 8032.081144562739,
+          "final_health": 0.9746381712054769
+        },
+        {
+          "seed": 303,
+          "profit": 103519.81885688203,
+          "failures": 6,
+          "downtime": 41.0,
+          "unmet": 3141.447021348698,
+          "production": 8412.58410001636,
+          "final_health": 0.9938515844685254
+        }
+      ],
+      "mean": {
+        "profit": 100862.73986021777,
+        "failures": 5.666666666666667,
+        "downtime": 46.0,
+        "unmet": 3206.17096887606,
+        "production": 8341.625523841101,
+        "final_health": 0.9651954669012963
+      }
+    },
+    {
+      "scenario": "demand_15pct_shift",
+      "rows": [
+        {
+          "seed": 101,
+          "profit": 113428.21807244087,
+          "failures": 5,
+          "downtime": 28.0,
+          "unmet": 3928.458127575069,
+          "production": 9174.646820092777,
+          "final_health": 0.9896781196914901
+        },
+        {
+          "seed": 202,
+          "profit": 95466.8477023356,
+          "failures": 6,
+          "downtime": 54.0,
+          "unmet": 4285.782018599469,
+          "production": 8845.137400726107,
+          "final_health": 0.9830287987278338
+        },
+        {
+          "seed": 303,
+          "profit": 93270.64998887364,
+          "failures": 8,
+          "downtime": 45.0,
+          "unmet": 4270.501283273007,
+          "production": 8756.661973355176,
+          "final_health": 0.8525121525429799
+        }
+      ],
+      "mean": {
+        "profit": 100721.90525455003,
+        "failures": 6.333333333333333,
+        "downtime": 42.333333333333336,
+        "unmet": 4161.580476482515,
+        "production": 8925.482064724687,
+        "final_health": 0.9417396903207679
+      }
+    }
+  ]
+}

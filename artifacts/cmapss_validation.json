@@ -1,0 +1,39 @@
+{
+  "dataset": "NASA C-MAPSS FD001",
+  "source": "NASA PCoE Turbofan Engine Degradation Simulation Data Set",
+  "fd": 1,
+  "window_size": 30,
+  "n_train": 17731,
+  "n_test": 100,
+  "metrics": {
+    "mean_baseline": {
+      "mae": 35.016273757825275,
+      "rmse": 40.660815088559296,
+      "r2": -0.029538167791559156,
+      "within_10_cycles_pct": 14.000000000000002,
+      "within_20_cycles_pct": 28.000000000000004
+    },
+    "ridge": {
+      "mae": 14.622391078054974,
+      "rmse": 17.710540362621796,
+      "r2": 0.804676761976903,
+      "within_10_cycles_pct": 40.0,
+      "within_20_cycles_pct": 73.0
+    },
+    "random_forest": {
+      "mae": 12.93020375781626,
+      "rmse": 17.530748798356672,
+      "r2": 0.8086223468430092,
+      "within_10_cycles_pct": 52.0,
+      "within_20_cycles_pct": 75.0
+    },
+    "hist_gradient_boosting": {
+      "mae": 11.952460502095066,
+      "rmse": 16.219467159910533,
+      "r2": 0.8361813070185328,
+      "within_10_cycles_pct": 54.0,
+      "within_20_cycles_pct": 76.0
+    }
+  },
+  "boundary": "External RUL benchmark only; it does not replace plant-specific scheduling validation."
+}

@@ -1,0 +1,157 @@
+{
+  "dataset": "Tennessee Eastman Process Mode 1",
+  "source": "Blound04/tennessee-eastman-dataset (MIT)",
+  "split": "first 5 batches per fault for training; remaining batches held out",
+  "binary_detector": {
+    "normal_false_positive_rate": 0.9973368841544608,
+    "fault_detection_rate": 0.9974609375
+  },
+  "fault_type_classifier": {
+    "accuracy": 0.6860026041666667,
+    "macro_f1": 0.6999914633262362,
+    "weighted_f1": 0.6995003200480558,
+    "n_test": 15360,
+    "classification_report": {
+      "1": {
+        "precision": 1.0,
+        "recall": 0.904635761589404,
+        "f1-score": 0.9499304589707928,
+        "support": 755.0
+      },
+      "2": {
+        "precision": 0.9813218390804598,
+        "recall": 0.904635761589404,
+        "f1-score": 0.9414197105444521,
+        "support": 755.0
+      },
+      "3": {
+        "precision": 0.8890339425587467,
+        "recall": 0.9019867549668874,
+        "f1-score": 0.8954635108481263,
+        "support": 755.0
+      },
+      "4": {
+        "precision": 0.5031512605042017,
+        "recall": 0.6344370860927152,
+        "f1-score": 0.5612185120093731,
+        "support": 755.0
+      },
+      "5": {
+        "precision": 0.5939849624060151,
+        "recall": 0.6278145695364239,
+        "f1-score": 0.6104314230521571,
+        "support": 755.0
+      },
+      "6": {
+        "precision": 0.8393782383419689,
+        "recall": 0.6230769230769231,
+        "f1-score": 0.7152317880794702,
+        "support": 260.0
+      },
+      "7": {
+        "precision": 0.5548628428927681,
+        "recall": 0.5894039735099338,
+        "f1-score": 0.5716120745022479,
+        "support": 755.0
+      },
+      "8": {
+        "precision": 0.9247159090909091,
+        "recall": 0.8622516556291391,
+        "f1-score": 0.8923920493488691,
+        "support": 755.0
+      },
+      "9": {
+        "precision": 0.6452784503631961,
+        "recall": 0.7059602649006622,
+        "f1-score": 0.6742567994939912,
+        "support": 755.0
+      },
+      "10": {
+        "precision": 0.9864406779661017,
+        "recall": 0.7708609271523179,
+        "f1-score": 0.8654275092936803,
+        "support": 755.0
+      },
+      "11": {
+        "precision": 0.84992784992785,
+        "recall": 0.7801324503311259,
+        "f1-score": 0.81353591160221,
+        "support": 755.0
+      },
+      "12": {
+        "precision": 0.8180535966149506,
+        "recall": 0.7682119205298014,
+        "f1-score": 0.7923497267759563,
+        "support": 755.0
+      },
+      "13": {
+        "precision": 0.8425076452599388,
+        "recall": 0.7298013245033113,
+        "f1-score": 0.7821149751596878,
+        "support": 755.0
+      },
+      "14": {
+        "precision": 0.8613138686131386,
+        "recall": 0.7814569536423841,
+        "f1-score": 0.8194444444444444,
+        "support": 755.0
+      },
+      "15": {
+        "precision": 0.19279661016949154,
+        "recall": 0.2410596026490066,
+        "f1-score": 0.2142436727486757,
+        "support": 755.0
+      },
+      "16": {
+        "precision": 0.17184265010351968,
+        "recall": 0.21986754966887417,
+        "f1-score": 0.19291109819872168,
+        "support": 755.0
+      },
+      "17": {
+        "precision": 0.8422575976845152,
+        "recall": 0.7708609271523179,
+        "f1-score": 0.8049792531120332,
+        "support": 755.0
+      },
+      "18": {
+        "precision": 0.8422575976845152,
+        "recall": 0.7708609271523179,
+        "f1-score": 0.8049792531120332,
+        "support": 755.0
+      },
+      "19": {
+        "precision": 0.630901287553648,
+        "recall": 0.5841059602649007,
+        "f1-score": 0.6066024759284732,
+        "support": 755.0
+      },
+      "20": {
+        "precision": 0.8927536231884058,
+        "recall": 0.8158940397350993,
+        "f1-score": 0.8525951557093425,
+        "support": 755.0
+      },
+      "21": {
+        "precision": 0.30711206896551724,
+        "recall": 0.37748344370860926,
+        "f1-score": 0.33868092691622104,
+        "support": 755.0
+      },
+      "accuracy": 0.6860026041666667,
+      "macro avg": {
+        "precision": 0.72237583423666,
+        "recall": 0.6840380370181696,
+        "f1-score": 0.6999914633262362,
+        "support": 15360.0
+      },
+      "weighted avg": {
+        "precision": 0.71860524894811,
+        "recall": 0.6860026041666667,
+        "f1-score": 0.6995003200480558,
+        "support": 15360.0
+      }
+    }
+  },
+  "boundary": "TEP is a public process simulation benchmark, not a real production DCS dataset."
+}

@@ -1,0 +1,429 @@
+{
+  "schema": "wm-maintenance-agent/1.0",
+  "trace_valid": true,
+  "n_trace_events": 8,
+  "plan_id": "PLAN-20261008-0",
+  "verified_profit": 17018.02,
+  "ticket": "MNT-6359E602",
+  "events": [
+    {
+      "step": "initialize",
+      "result": "ready"
+    },
+    {
+      "step": "plant_read_state",
+      "result": {
+        "status": "ok",
+        "schema": "maintenance-agent/1.0",
+        "hour": 0,
+        "seed": 20261008,
+        "machines": [
+          {
+            "id": "M1",
+            "health": 0.7527,
+            "temperature_c": 30.81,
+            "vibration": 0.1964,
+            "down_remaining_h": 0.0,
+            "maintenance_remaining_h": 0.0
+          },
+          {
+            "id": "M2",
+            "health": 0.9724,
+            "temperature_c": 30.95,
+            "vibration": 0.1346,
+            "down_remaining_h": 0.0,
+            "maintenance_remaining_h": 0.0
+          },
+          {
+            "id": "M3",
+            "health": 0.9778,
+            "temperature_c": 32.81,
+            "vibration": 0.1439,
+            "down_remaining_h": 0.0,
+            "maintenance_remaining_h": 0.0
+          }
+        ],
+        "demand_units_h": 56.98,
+        "energy_price": 0.1218,
+        "cumulative_profit": 0.0
+      }
+    },
+    {
+      "step": "world_model_plan",
+      "result": {
+        "status": "ok",
+        "plan_id": "PLAN-20261008-0",
+        "hour": 0,
+        "horizon": 12,
+        "predicted_profit": 11475.08,
+        "predicted_risk": 0.424553,
+        "modes": [
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            1,
+            2
+          ]
+        ],
+        "mode_names": [
+          "derate",
+          "full",
+          "derate",
+          "derate",
+          "full",
+          "derate",
+          "maintenance",
+          "full",
+          "full",
+          "full",
+          "full",
+          "full",
+          "derate",
+          "derate",
+          "derate",
+          "full",
+          "full",
+          "full",
+          "full",
+          "full",
+          "derate",
+          "full",
+          "full",
+          "full",
+          "full",
+          "full",
+          "derate",
+          "full",
+          "full",
+          "derate",
+          "full",
+          "full",
+          "full",
+          "full",
+          "derate",
+          "full"
+        ],
+        "requires_highfidelity_verification": true
+      }
+    },
+    {
+      "step": "highfidelity_verify",
+      "result": {
+        "status": "ok",
+        "plan_id": "PLAN-20261008-0",
+        "all_pass": true,
+        "capacity_ok": true,
+        "profit_ok": true,
+        "verified_profit": 17018.02,
+        "verified_failures": 0,
+        "verified_unmet": 54.17,
+        "capacity_violations": 0,
+        "risk": 0.0
+      }
+    },
+    {
+      "step": "approval_requested",
+      "result": {
+        "status": "approval_required",
+        "message": "maintenance/derate/offline actions require explicit human approval",
+        "plan_id": "PLAN-20261008-0",
+        "step_index": 0,
+        "modes": [
+          1,
+          2,
+          1
+        ],
+        "mode_names": [
+          "derate",
+          "full",
+          "derate"
+        ],
+        "approved": false,
+        "changes_plant_state": true
+      }
+    },
+    {
+      "step": "action_executed",
+      "result": {
+        "status": "executed",
+        "ticket": "MNT-6359E602",
+        "plan_id": "PLAN-20261008-0",
+        "step_index": 0,
+        "modes": [
+          1,
+          2,
+          1
+        ],
+        "profit": 1249.18,
+        "production": 67.22,
+        "failures": 0,
+        "maintenances": 0,
+        "done": false,
+        "hour": 1
+      }
+    },
+    {
+      "step": "trace_export",
+      "result": {
+        "status": "ok",
+        "valid": true,
+        "n_events": 8,
+        "last_hash": "dce42c5124dba9b4c8b76e1e44706a4fb6604724b71dada5b343176548b9e5b9",
+        "events": [
+          {
+            "seq": 1,
+            "time": "2026-10-08T09:44:14.575289+00:00",
+            "type": "session/start",
+            "payload": {
+              "seed": 20261008,
+              "model_path": "C:\\Users\\user\\Documents\\Codex\\2026-10-08\\https-agnes-ai-cn-hackathon-register\\world-model-maintenance-agent\\artifacts\\world_model.npz"
+            },
+            "prev_hash": "GENESIS",
+            "hash": "8cb7e7156d712ea47e1183e67786b2c6b257ef32f65c13c67b573ab424bc95d7"
+          },
+          {
+            "seq": 2,
+            "time": "2026-10-08T09:44:14.575289+00:00",
+            "type": "tool/plant_read_state",
+            "payload": {
+              "hour": 0
+            },
+            "prev_hash": "8cb7e7156d712ea47e1183e67786b2c6b257ef32f65c13c67b573ab424bc95d7",
+            "hash": "1f18ec1649dab402f0513b7291d54e65e1bae8e44349bc1c109dd2d051556190"
+          },
+          {
+            "seq": 3,
+            "time": "2026-10-08T09:44:14.769269+00:00",
+            "type": "tool/world_model_plan",
+            "payload": {
+              "plan_id": "PLAN-20261008-0",
+              "hour": 0,
+              "horizon": 12,
+              "predicted_profit": 11475.081260281762,
+              "predicted_risk": 0.4245534836018579,
+              "modes": [
+                [
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  3,
+                  2,
+                  2
+                ],
+                [
+                  2,
+                  2,
+                  2
+                ],
+                [
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  2,
+                  2
+                ],
+                [
+                  2,
+                  2,
+                  1
+                ],
+                [
+                  2,
+                  2,
+                  2
+                ],
+                [
+                  2,
+                  2,
+                  1
+                ],
+                [
+                  2,
+                  2,
+                  1
+                ],
+                [
+                  2,
+                  2,
+                  2
+                ],
+                [
+                  2,
+                  1,
+                  2
+                ]
+              ]
+            },
+            "prev_hash": "1f18ec1649dab402f0513b7291d54e65e1bae8e44349bc1c109dd2d051556190",
+            "hash": "7b89eea5cdbb463cb84fe2523337368eada763210e3a62fb8dd07f6c465a5cb6"
+          },
+          {
+            "seq": 4,
+            "time": "2026-10-08T09:44:14.771804+00:00",
+            "type": "tool/highfidelity_verify",
+            "payload": {
+              "status": "ok",
+              "plan_id": "PLAN-20261008-0",
+              "all_pass": true,
+              "capacity_ok": true,
+              "profit_ok": true,
+              "verified_profit": 17018.02,
+              "verified_failures": 0,
+              "verified_unmet": 54.17,
+              "capacity_violations": 0,
+              "risk": 0.0
+            },
+            "prev_hash": "7b89eea5cdbb463cb84fe2523337368eada763210e3a62fb8dd07f6c465a5cb6",
+            "hash": "440a6d5560ca2b25fb76002566b15e719b9768355ea233e45cdad93969d4648c"
+          },
+          {
+            "seq": 5,
+            "time": "2026-10-08T09:44:14.772787+00:00",
+            "type": "action/requested",
+            "payload": {
+              "plan_id": "PLAN-20261008-0",
+              "step_index": 0,
+              "modes": [
+                1,
+                2,
+                1
+              ],
+              "mode_names": [
+                "derate",
+                "full",
+                "derate"
+              ],
+              "approved": false,
+              "changes_plant_state": true
+            },
+            "prev_hash": "440a6d5560ca2b25fb76002566b15e719b9768355ea233e45cdad93969d4648c",
+            "hash": "315cdd38f5a50eb931d42908dec1908dc73ffad22516cdf30da0e6daccb1cf62"
+          },
+          {
+            "seq": 6,
+            "time": "2026-10-08T09:44:14.772787+00:00",
+            "type": "action/requested",
+            "payload": {
+              "plan_id": "PLAN-20261008-0",
+              "step_index": 0,
+              "modes": [
+                1,
+                2,
+                1
+              ],
+              "mode_names": [
+                "derate",
+                "full",
+                "derate"
+              ],
+              "approved": true,
+              "changes_plant_state": true
+            },
+            "prev_hash": "315cdd38f5a50eb931d42908dec1908dc73ffad22516cdf30da0e6daccb1cf62",
+            "hash": "145771bc7e5f053c8e3db39e70da8e7ea31a7a6523f4e4a368c4d230b8710582"
+          },
+          {
+            "seq": 7,
+            "time": "2026-10-08T09:44:14.772787+00:00",
+            "type": "approval/granted",
+            "payload": {
+              "plan_id": "PLAN-20261008-0",
+              "step_index": 0,
+              "source": "explicit approved=true"
+            },
+            "prev_hash": "145771bc7e5f053c8e3db39e70da8e7ea31a7a6523f4e4a368c4d230b8710582",
+            "hash": "4fb1a50cbbe2f41c4b90111d2187294e21bcd7d3eea950a3795f20e2e1b181d5"
+          },
+          {
+            "seq": 8,
+            "time": "2026-10-08T09:44:14.772787+00:00",
+            "type": "action/executed",
+            "payload": {
+              "status": "executed",
+              "ticket": "MNT-6359E602",
+              "plan_id": "PLAN-20261008-0",
+              "step_index": 0,
+              "modes": [
+                1,
+                2,
+                1
+              ],
+              "profit": 1249.18,
+              "production": 67.22,
+              "failures": 0,
+              "maintenances": 0,
+              "done": false,
+              "hour": 1
+            },
+            "prev_hash": "4fb1a50cbbe2f41c4b90111d2187294e21bcd7d3eea950a3795f20e2e1b181d5",
+            "hash": "dce42c5124dba9b4c8b76e1e44706a4fb6604724b71dada5b343176548b9e5b9"
+          }
+        ]
+      }
+    }
+  ]
+}

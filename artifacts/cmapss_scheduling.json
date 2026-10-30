@@ -1,0 +1,65 @@
+{
+  "dataset": "NASA C-MAPSS FD001",
+  "mode": "scheduling comparison on real degradation trajectories",
+  "counterfactual_assumption": "Maintenance resets the unit to its first observed trajectory state and incurs a fixed cost.",
+  "horizon_cycles": 250,
+  "maintenance_cost": 80.0,
+  "failure_cost": 800.0,
+  "operating_cost": 1.0,
+  "policies": [
+    {
+      "policy": "no_maintenance",
+      "mean_cost": 913.17,
+      "mean_failures": 0.83,
+      "mean_maintenances": 0.0,
+      "availability": 0.99668,
+      "n_units": 100,
+      "cost_vs_predicted_35_pct": 17.262500963094222
+    },
+    {
+      "policy": "fixed_interval_50",
+      "mean_cost": 566.0,
+      "mean_failures": 0.0,
+      "mean_maintenances": 4.0,
+      "availability": 0.9839999999999998,
+      "n_units": 100,
+      "cost_vs_predicted_35_pct": -27.318488840948202
+    },
+    {
+      "policy": "oracle_rul_20",
+      "mean_cost": 325.84,
+      "mean_failures": 0.0,
+      "mean_maintenances": 0.96,
+      "availability": 0.9961600000000002,
+      "n_units": 100,
+      "cost_vs_predicted_35_pct": -58.158050183629975
+    },
+    {
+      "policy": "predicted_rul_20",
+      "mean_cost": 833.97,
+      "mean_failures": 0.72,
+      "mean_maintenances": 0.11,
+      "availability": 0.99668,
+      "n_units": 100,
+      "cost_vs_predicted_35_pct": 7.092225903382389
+    },
+    {
+      "policy": "predicted_rul_35",
+      "mean_cost": 778.74,
+      "mean_failures": 0.64,
+      "mean_maintenances": 0.22,
+      "availability": 0.9965600000000001,
+      "n_units": 100,
+      "cost_vs_predicted_35_pct": 0.0
+    },
+    {
+      "policy": "predicted_rul_50",
+      "mean_cost": 726.67,
+      "mean_failures": 0.56,
+      "mean_maintenances": 0.37,
+      "availability": 0.99628,
+      "n_units": 100,
+      "cost_vs_predicted_35_pct": -6.686442201505001
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wm-maint-agent"
+version = "0.1.0"
+description = "World-model-driven industrial maintenance and production scheduling agent"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.8"]
+dev = ["pytest>=8"]
+cmapss = ["rul-datasets>=0.18", "scikit-learn>=1.4"]
+tep = ["pandas>=2.0", "openpyxl>=3.1", "scikit-learn>=1.4"]
+sequence = ["torch>=2.0"]
+plc = ["pymodbus>=3.15"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
